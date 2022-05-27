@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Sketch-Pad</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Sketch-Pad</h2>
+        <div class="sketchpad">
+            
+        </div>
+        <div class="slider-container">
+            <input type="range"  min="1" max="60" value="1" class="slider" id="myRange">
+            <h4 class="grid-value-text">Grid 1 * 1</h4>
+
+        </div>
+        <div class="other-stuff">
+            <div class="color-picker">
+                <input type="color" name="colorPicker" id="colorPicker" class="colorPicker">
+                <h4>Color to fill boxes</h4>
+            </div>
+            <div class="toggle-rainbow">
+                <input type="checkbox" name="rainbowChecker" class="rainbowToggle">
+                <h4>Toggle for rainbow</h4>
+            </div>
+            <button class="btn btn-clear" >Clear</button>
+        </div>
+    </div>
+</body>
+</html>
